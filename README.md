@@ -1,6 +1,5 @@
-Fast map intersection (postgis), by Graeme B Bell.
-===========================
-
+Fast map intersection (postgis)
+==============================
 
 This template script will split up a large GIS map intersection query into hundreds of little pieces that run quickly in 
 parallel. This is a special case; for other types of queries, try http://parpsql.com  / http://github.com/gbb/par_psql.
@@ -30,6 +29,11 @@ How to use
 - Wait a little, watch the progress bars.
 - Done!
 - (Press crtl-z to freeze the program if you want to inspect the command files; then 'fg' to restart).
+
+AUTHOR
+====
+
+Graeme B Bell, Norwegian Forest and Landscape Institute / NIBIO (Norwegian Institute for Bioeconomy Research).
 
 NEWS 
 ====
