@@ -1,7 +1,7 @@
 Fast map intersection (postgis)
 ==============================
 
-This template script will split up a large GIS map intersection query into hundreds of little pieces that run quickly in 
+This [template script](https://github.com/gbb/fast_map_intersection/blob/master/fast_map_intersection.sh) will split up a large GIS map intersection query into hundreds of little pieces that run quickly in 
 parallel. This is a special case; for other types of queries, try http://parpsql.com  / http://github.com/gbb/par_psql.
 
 The script may look a little ugly - it requires a few minutes to edit a couple of variables before it can be run for your own 
