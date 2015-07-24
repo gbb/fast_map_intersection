@@ -38,14 +38,16 @@ Graeme B Bell, Norwegian Forest and Landscape Institute / NIBIO (Norwegian Insti
 NEWS 
 ====
 
-v1. Presented at FOSS4G Europe in Como. 
+v1.0.1 Presented at FOSS4G Europe in Como. 
 
 
 THANKS
 ======
 
-Thanks to the Norwegian Forest and Landscape Institute (now NIBIO, the Norwegian Institute of Bioeconomy Research) for 
+- Thanks to the Norwegian Forest and Landscape Institute (now NIBIO, the Norwegian Institute of Bioeconomy Research) for 
 supporting open source publication/sharing of our local scripts that may be useful for others.
+
+- Martijn Meijers for the suggestion of using UNION ALL for a little extra speed.
 
 TODO
 ====

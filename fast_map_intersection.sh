@@ -7,6 +7,7 @@
 # It's very useful for intersections on large geometry sets.
 # IMPORTANT NOTE: It is __extremely__ important to have spatial indices on your source datasets!  
 # Remember to put a spatial index on your final result if you need that.
+# v1.0.1
 
 ######### Start of options #########
 
@@ -89,7 +90,7 @@ for i in `seq 0 $((SPLIT-1))`; do
     echo -e "echo \"DROP TABLE IF EXISTS ${RESULT_SCHEMA}.${RESULT_TABLE}_${i}_${j};\" | ${DB_LOGIN}" >> prep_commands
     echo -e "echo \"DROP TABLE IF EXISTS ${RESULT_SCHEMA}.${RESULT_TABLE}_${i}_${j};\" | ${DB_LOGIN}" >> tidy_commands
 
-    echo -en "${RESULT_SCHEMA}.${RESULT_TABLE}_${i}_${j} UNION SELECT * FROM " >> join_commands 
+    echo -en "${RESULT_SCHEMA}.${RESULT_TABLE}_${i}_${j} UNION ALL SELECT * FROM " >> join_commands 
 
   done
 done
