@@ -49,6 +49,19 @@ supporting open source publication/sharing of our local scripts that may be usef
 
 - Martijn Meijers for the suggestion of using UNION ALL for a little extra speed.
 
+LINKS
+=====
+
+If you like this script, you may also like these links - Mark Wynter has written some guides to using Gnu Parallel for 
+other GIS work with postgis.
+
+http://dimensionaledge.com/intro-vector-tiling-map-reduce-postgis/
+
+http://dimensionaledge.com/from-days-to-minutes-geoprocessing-of-alberta-land-use-data/
+
+
+
+
 TODO
 ====
 
